@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    text-align: center;
+    /* width: 300px; */
+    margin-bottom: 10px;
+}
+h6{
+    text-decoration: underline;
+    color: grey;
+    margin-bottom: 8px;
+}
+
+/* img{
+    width: 200px;
+}
+
+p{
+    width:200px;
+} */
+
+section{
+    display: flex;
+}
+
+.box{
+    padding: 20px;
+    border: solid red 1.5px;
+    margin: 8px;
+    width: 18%;
+}
+
+.box img{
+    width: 100%;
+}
+
+p{
+    margin: 15px 0px;
+}
+
+.view{
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.view a{
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px 18px 15px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    background-color: green;
+    
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.people {
+   background-image: url(scholarship-bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position:center;
+}
+
+.bg-image img{
+    height: 500px;
+    width: 500px;
+}
+
+.sidecontent{
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.sidecontent p{
+    font-size: 24px;
+    padding: 30px 0px;
+  
+}
+
+.flags{
+    display: flex;
+}
+
+.viewall a{
+    background-color: #0f0;
+    text-decoration: none;
+    padding: 10px;
+    color:#fff ;
+    margin-left: 0px;
+}
+
+.people{
+    display: flex;
+    justify-content: space-around;  
+}
+
+
